@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(270deg, #000080 20%, #2b42a2 48.76%, #87ceeb 97.52%);
+    
 }
 
 #navbar1{
@@ -20,38 +20,14 @@ body{
     border-radius: 50%;
 }
 
-
-section{
+#landing-sect{
+    background: linear-gradient(270deg, #000080 20%, #2b42a2 48.76%, #87ceeb 97.52%);
     height: 100vh;
-}
-
-
-#testimonial img{
-    width: 100px;
-    position: relative;
-    left: 105px;
-}
-
-#land-btn{
-    margin-left: 18em;
-}
-
-#education{
-    padding-top: 45% !important;
-}
-
-#education img{
-    width: 250px !important;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-h2{
-    color: #7e7eff;
 }
-
-/* #landing{
-    position: relative;
-    bottom: 95px;
-} */
 
 
 
@@ -64,31 +40,6 @@ h2{
         border-radius: 50%;
         display: flex;
         justify-content: start;
-    }
-    
-    #land-btn{
-        margin-left: 33%;
-    }
-
-    #about p{
-        font-size: 15px;
-        padding: 5%;
-    }
-
-    #about{
-        height: 100vh;
-    }
-
-    #testimonial{
-        position: relative;
-        bottom: 100px;
-        padding-top: 0;
-    }
-
-    #testimonial img{
-        width: 200px;
-        position: relative;
-        left: 65px;
     }
 }
 
@@ -104,24 +55,4 @@ h2{
         display: flex;
         justify-content: start;
     }
-    
-    #wrapper{
-        width: auto;
-    }
-
-    #testimonials{
-        position: relative;
-        bottom: 100px;
-    }
-
-    section{
-        height: 100vh;
-    }
-
-    #testimonial img{
-        width: 200px;
-        position: relative;
-        left: 90px;
-    }
-    
 }
