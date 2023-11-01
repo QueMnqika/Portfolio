@@ -20,13 +20,28 @@ body{
     border-radius: 50%;
 }
 
+section{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
 #landing-sect{
     background: linear-gradient(270deg, #000080 20%, #2b42a2 48.76%, #87ceeb 97.52%);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-bottom: 1px solid #000;
+}
+
+#about{
+    height: 100vh;
+    border-bottom: 1px solid #000;
+}
+
+#about-text{
+    display: flex;
+    align-items: center;
 }
 
 
