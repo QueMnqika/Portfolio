@@ -22,7 +22,7 @@ body{
 
 section{
     height: 100vh;
-    padding: 120px 0;
+    padding: 110px 0;
     border-bottom: 1px solid #000;
 }
 
@@ -57,6 +57,12 @@ small{
 #testimonial-pic{
     display: flex;
     justify-content: center;
+}
+
+#projects-sect img{
+    border-radius: 25px;
+    position: relative;
+    left: 34%;
 }
 
 
