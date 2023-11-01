@@ -3,7 +3,7 @@
 }
 
 body{
-    
+
 }
 
 #navbar1{
@@ -21,8 +21,14 @@ body{
 }
 
 section{
-    padding-top: 70px;
-    padding-bottom: 50px;
+    height: 100vh;
+    padding: 120px 0;
+    border-bottom: 1px solid #000;
+}
+
+small{
+    display: flex;
+    justify-content: center;
 }
 
 #landing-sect{
@@ -36,12 +42,21 @@ section{
 
 #about{
     height: 100vh;
-    border-bottom: 1px solid #000;
+    padding-top: 70%;
 }
 
 #about-text{
     display: flex;
     align-items: center;
+}
+
+#testimonial-sect{
+    height: 380vh;
+}
+
+#testimonial-pic{
+    display: flex;
+    justify-content: center;
 }
 
 
