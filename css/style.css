@@ -69,6 +69,10 @@ small{
     left: 38%;
 }
 
+#projects-sect{
+    height: 100vh;
+}
+
 #projects-sect img{
     border-radius: 25px;
     position: relative;
