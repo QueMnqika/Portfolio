@@ -92,6 +92,16 @@ small{
     padding: 2%;
 }
 
+#skills-sect{
+    height: 100vh;
+
+}
+
+#skills-sect img{
+    position: relative;
+    left: 44.5%;
+}
+
 
 
 @media screen and (max-width: 575px) {
