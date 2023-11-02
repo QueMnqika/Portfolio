@@ -59,10 +59,37 @@ small{
     justify-content: center;
 }
 
+#education-sect{
+    height: 100vh;
+}
+
 #education-sect img{
     border-radius: 25px;
     position: relative;
     left: 38%;
+}
+
+#projects-sect{
+    height: 100vh;
+}
+
+#projects-sect img{
+    border-radius: 25px;
+    position: relative;
+    left: 38%;
+    box-shadow: 0 0 7px #000;
+}
+
+#projects-sect img:hover{
+    border-radius: 25px;
+    position: relative;
+    left: 37.8%;
+    box-shadow: 0 0 12px #000;
+    width: 305px;
+}
+
+#cards{
+    padding: 2%;
 }
 
 
