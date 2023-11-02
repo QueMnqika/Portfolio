@@ -104,6 +104,15 @@ small{
 
 
 
+#form-sect{
+    width: 40%;
+
+}
+
+#footer{
+    background-color: #272727;
+}
+
 
 
 @media screen and (max-width: 575px) {
