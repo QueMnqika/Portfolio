@@ -47,6 +47,7 @@ small{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #000;
+    animation: appear 5s ease-in;
 }
 
 #about-sect{
@@ -499,5 +500,14 @@ small{
     }
     100%{
         transform: rotateY(360deg)
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
