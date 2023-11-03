@@ -12,10 +12,12 @@
 
 #logo{
     border-radius: 50%;
+    animation: logoAnime 3s infinite;
 }
 
 #logo2{
     border-radius: 50%;
+    animation: logoAnime 3s infinite;
 }
 
 h1{
@@ -108,7 +110,7 @@ small{
 
 #skills-sect img{
     position: relative;
-    left: 80px;
+    left: 55px;
 }
 
 #connect-sect{
@@ -136,6 +138,7 @@ small{
 
     #logo{
         display: none;
+
     }
     
     #logo2{
@@ -396,7 +399,7 @@ small{
 
     #keziah{
         position: relative;
-        bottom: 140px;
+        bottom: 190px;
         left: 210px;
     }
 
@@ -439,7 +442,7 @@ small{
 
     #skills-sect img{
         position: relative;
-        left: 30%;
+        left: 37%;
         width: 90px;
     }
     
@@ -484,5 +487,17 @@ small{
     #skills-sect img {
         position: relative;
         left: 35px;
+    }
+}
+
+@keyframes logoAnime{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg)
     }
 }
