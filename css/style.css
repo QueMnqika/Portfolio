@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-
-}
-
 #navbar1{
     position: sticky;
     top: 0;
@@ -18,6 +14,11 @@ body{
 
 #logo2{
     border-radius: 50%;
+}
+
+h1{
+    color: #000080;
+    text-shadow: 0 0 2px #000014;
 }
 
 section{
@@ -40,9 +41,8 @@ small{
     border-bottom: 1px solid #000;
 }
 
-#about{
-    height: 100vh;
-    padding-top: 70%;
+#about-sect{
+    height: auto;
 }
 
 #about-text{
@@ -51,7 +51,7 @@ small{
 }
 
 #testimonial-sect{
-    height: 380vh;
+    height: auto;
 }
 
 #testimonial-pic{
@@ -60,7 +60,7 @@ small{
 }
 
 #education-sect{
-    height: 100vh;
+    height: auto;
 }
 
 #education-sect img{
@@ -70,7 +70,7 @@ small{
 }
 
 #projects-sect{
-    height: 100vh;
+    height: auto;
 }
 
 #projects-sect img{
@@ -92,9 +92,12 @@ small{
     padding: 2%;
 }
 
-#skills-sect{
-    height: 100vh;
+#experience-sect{
+    height: auto;
+}
 
+#skills-sect{
+    height: auto;
 }
 
 #skills-sect img{
@@ -102,6 +105,9 @@ small{
     left: 135px;
 }
 
+#connect-sect{
+    height: auto;
+}
 
 
 #form-sect{
@@ -111,11 +117,12 @@ small{
 
 #footer{
     background-color: #272727;
+    height: auto;
 }
 
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 320px) {
     #logo{
         display: none;
     }
@@ -125,11 +132,160 @@ small{
         display: flex;
         justify-content: start;
     }
+
+    section{
+        border: none;
+    }
+
+    #smll-about{
+        position: relative;
+        bottom: 185px;
+        border-bottom: 1px solid #000;
+    }
+
+    #testimonial-sect{
+        height: auto;
+        position: relative;
+        top: -410px;
+        border-bottom: 1px solid #000;
+        padding-top: 120px;
+    }
+
+    #testimonial-pic{
+        width: 200px;
+        position: relative;
+        left: 55px;
+    }
+
+    #education-sect{
+        height: auto;
+        position: relative;
+        top: -575px;
+        left: 5px;
+        border-bottom: 1px solid #000;
+        padding-top: 180px;
+    }
+
+    #caela{
+        position: relative;
+        top: 30px;
+        right: 47px;
+    }
+
+    #caela-name{
+        position: relative;
+        bottom: 225px;
+    }
+
+    #sphathi{
+        position: relative;
+        bottom: 180px;
+    }
+
+    #sphathi-text{
+        position: relative;
+        top: 200px;
+    }
+
+    #siya-name{
+        position: relative;
+        bottom: 180px;
+    }
+
+    #siya{
+        position: relative;
+        top: 50px;
+    }
+
+    #abdul{
+        position: relative;
+        bottom: 325px;
+    }
+
+    #abdul-text{
+        position: relative;
+        top: 200px;
+    }
+
+    #naeema-name{
+        position: relative;
+        bottom: 180px;
+    }
+
+    #naeema{
+        position: relative;
+        top: 50px;
+    }
+
+    #keziah-text{
+        position: relative;
+        top: 220px;
+    }
+
+    #keziah{
+        position: relative;
+        bottom: 400px;
+    }
+
+    #education-sect img{
+        border-radius: 25px;
+        position: relative;
+        left: 30%;
+        width: 100px;
+        height: auto;
+    }
+
+    #projects-sect{
+        border-bottom: 1px solid #000;
+        position: relative;
+        top: -660px;
+        }
+
+    #projects-sect img{
+        width: 120px;
+        border-radius: 25px;
+        position: relative;
+        left: 32%;
+        box-shadow: 0 0 7px #000;
+    }
+
+    #experience-sect{
+        position: relative;
+        top: -700px;
+        border-bottom: 1px solid #000;
+    }
+    #work-cards{
+        width: 80%;
+        position: relative;
+        left: 25px;
+        margin: 7% 0;
+    }
+    
+
+    #skills-sect{
+        height: auto;
+        position: relative;
+        bottom: 770px;
+        border-bottom: 1px solid #000;
+    }
+
+    #skills-sect img{
+        position: relative;
+        left: 80px;
+        width: 90px;
+    }
+    
+    #connect-sect{
+        position: relative;
+        bottom: 840px;
+    }
+
+    #form-sect{
+        width: 100%;
+    }
+
 }
-
-
-
-@media screen and(min-width: 321px) and (max-width: 720px) {
+@media screen and (min-width: 321px) and (max-width: 720px) {
     #logo{
         display: none;
     }
@@ -138,5 +294,176 @@ small{
         border-radius: 50%;
         display: flex;
         justify-content: start;
+    }
+
+    section{
+        border: none;
+        padding: 70px 0;
+        border-bottom: 1px solid #000;
+    }
+
+    #smll-about{
+        height: auto;
+    }
+
+    #testimonial-sect{
+        position: relative;
+        top: 0px;
+    }
+
+    #testimonial-pic{
+        width: 200px;
+        position: relative;
+        left: 55px;
+    }
+
+    #education-sect{
+        height: auto;
+        position: relative;
+        top: -30px;
+        left: 5px;
+    }
+
+    #caela{
+        position: relative;
+        top: 30px;
+        right: 52px;
+    }
+
+    #caela-name{
+        position: relative;
+        bottom: 225px;
+    }
+
+    #sphathi{
+        position: relative;
+        bottom: 70px;
+        left: 208px;
+    }
+
+    #sphathi-text{
+        position: relative;
+        top: 200px;
+    }
+
+    #siya-name{
+        position: relative;
+        bottom: 180px;
+    }
+
+    #siya{
+        position: relative;
+        top: 60px;
+        left: 190px;
+    }
+
+    #abdul{
+        position: relative;
+        bottom: 110px;
+        left: 210px;
+    }
+
+    #abdul-text{
+        position: relative;
+        top: 200px;
+    }
+
+    #naeema-name{
+        position: relative;
+        bottom: 180px;
+    }
+
+    #naeema{
+        position: relative;
+        top: 55px;
+        left: 200px;
+    }
+
+    #keziah-text{
+        position: relative;
+        top: 220px;
+    }
+
+    #keziah{
+        position: relative;
+        bottom: 140px;
+        left: 210px;
+    }
+
+    #education-sect img{
+        border-radius: 25px;
+        position: relative;
+        left: 35.5%;
+        width: 200px;
+        height: auto;
+    }
+
+    #projects-sect{
+        margin-top: 0px;
+    }
+
+    #projects-sect img{
+        width: 200px;
+        border-radius: 25px;
+        position: relative;
+        left: 36.5%;
+        box-shadow: 0 0 7px #000;
+    }
+
+    #experience-sect{
+        height: auto;
+        position: relative;
+        bottom: 0px;
+    }
+    #work-cards{
+        width: 60%;
+        position: relative;
+        left: 105px;
+        margin: 7% 0;
+    }
+    
+
+    #skills-sect{
+        padding-top: 55px;
+    }
+
+    #skills-sect img{
+        position: relative;
+        left: 115px;
+        width: 90px;
+    }
+    
+    #connect-sect{
+        padding-top: 70px;
+    }
+
+    #form-sect{
+        width: 60%;
+    }
+
+    footer{
+        
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+    #projects-sect img {
+        border-radius: 25px;
+        position: relative;
+        left: 34.5%;
+        box-shadow: 0 0 7px #000;
+    }
+
+    #projects-sect img:hover{
+        border-radius: 25px;
+        position: relative;
+        left: 34.7%;
+        box-shadow: 0 0 12px #000;
+        width: 305px;
+    }
+
+    #skills-sect img {
+        position: relative;
+        left: 75px;
     }
 }
