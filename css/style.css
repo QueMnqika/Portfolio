@@ -25,7 +25,7 @@ h1{
 
 section{
     height: 100vh;
-    padding: 110px 0;
+    padding: 130px 0;
     border-bottom: 1px solid #000;
 }
 
@@ -36,6 +36,10 @@ small{
 
 #landing-sect{
     background: linear-gradient(270deg, #000080 20%, #2b42a2 48.76%, #87ceeb 97.52%);
+    /* background-image: url('https://i.postimg.cc/Mpf7ypq8/340156560-197791849632812-1348234761244677952-n.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -104,7 +108,7 @@ small{
 
 #skills-sect img{
     position: relative;
-    left: 135px;
+    left: 80px;
 }
 
 #connect-sect{
@@ -145,15 +149,11 @@ small{
     }
 
     #smll-about{
-        position: relative;
-        bottom: 185px;
         border-bottom: 1px solid #000;
     }
 
     #testimonial-sect{
         height: auto;
-        position: relative;
-        top: -410px;
         border-bottom: 1px solid #000;
         padding-top: 120px;
     }
@@ -166,9 +166,6 @@ small{
 
     #education-sect{
         height: auto;
-        position: relative;
-        top: -575px;
-        left: 5px;
         border-bottom: 1px solid #000;
         padding-top: 180px;
     }
@@ -206,7 +203,7 @@ small{
 
     #abdul{
         position: relative;
-        bottom: 345px;
+        bottom: 295px;
     }
 
     #abdul-text{
@@ -231,7 +228,7 @@ small{
 
     #keziah{
         position: relative;
-        bottom: 435px;
+        bottom: 375px;
     }
 
     #education-sect img{
@@ -244,8 +241,6 @@ small{
 
     #projects-sect{
         border-bottom: 1px solid #000;
-        position: relative;
-        top: -660px;
         }
 
     #projects-sect img{
@@ -257,8 +252,6 @@ small{
     }
 
     #experience-sect{
-        position: relative;
-        top: -700px;
         border-bottom: 1px solid #000;
     }
     #work-cards{
@@ -271,8 +264,6 @@ small{
 
     #skills-sect{
         height: auto;
-        position: relative;
-        bottom: 770px;
         border-bottom: 1px solid #000;
     }
 
@@ -281,10 +272,11 @@ small{
         left: 80px;
         width: 90px;
     }
-    
-    #connect-sect{
+
+    #connect-icons{
         position: relative;
-        bottom: 840px;
+        left: 85px;
+        top: 70px;
     }
 
     #form-sect{
@@ -491,6 +483,6 @@ small{
 
     #skills-sect img {
         position: relative;
-        left: 75px;
+        left: 35px;
     }
 }
